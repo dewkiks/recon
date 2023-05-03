@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCustomTheme" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#EB4C12</item>
+        <item name="colorPrimaryDark">#EB4C12</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+    <style name="bottom_theme" parent="@style/Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/backdrop</item>
+    </style>
+
+    <style name="backdrop" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">#CFD8DE</item>
+        <item name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+        <item name="colorPrimary">?attr/colorPrimary</item>
+    </style>
+</resources>
